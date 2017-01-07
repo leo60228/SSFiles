@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<toolbar version="12.3">
+	<wallpaper enabled="yes" inheritable="yes" type="tile">
+		<std_type>toolbar</std_type>
+	</wallpaper>
+	<buttons backcol="none" display="label" textcol="none" type="menu">
+		<button backcol="none" display="label" min_width="yes" textcol="none" type="three_button">
+			<label>C:</label>
+			<icon1>#newcommand</icon1>
+			<button backcol="none" display="label" textcol="none">
+				<label>C:\</label>
+				<icon1>#newcommand</icon1>
+				<function type="normal">
+					<instruction>Go C:\</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" textcol="none" type="menu">
+				<label>Go</label>
+				<icon1>#newmenu</icon1>
+				<button backcol="none" display="label" textcol="none">
+					<label>Windows</label>
+					<icon1>#newcommand</icon1>
+					<function type="normal">
+						<instruction>Go C:\Windows</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" textcol="none">
+					<label>Program Files</label>
+					<icon1>#newcommand</icon1>
+					<function type="normal">
+						<instruction>Go &quot;C:\Program Files&quot;</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" textcol="none">
+					<label>Program Files (x86)</label>
+					<icon1>#newcommand</icon1>
+					<function type="normal">
+						<instruction>Go &quot;C:\Program Files (x86)&quot;</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" textcol="none">
+					<label>User Directory</label>
+					<icon1>#newcommand</icon1>
+					<function type="normal">
+						<instruction>Go &quot;C:\Users\snuggles08&quot;</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" textcol="none">
+					<label>Recent</label>
+					<icon1>#newcommand</icon1>
+					<function type="normal">
+						<instruction>recent path C:\</instruction>
+					</function>
+				</button>
+			</button>
+			<button backcol="none" display="label" textcol="none">
+				<label>Properties</label>
+				<icon1>#newcommand</icon1>
+				<function type="normal">
+					<instruction>properties</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="label" min_width="yes" textcol="none" type="three_button">
+			<label>D:</label>
+			<icon1>#newcommand</icon1>
+			<button backcol="none" display="label" textcol="none">
+				<label>D:\</label>
+				<icon1>#newcommand</icon1>
+				<function type="normal">
+					<instruction>Go D:\</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" textcol="none" type="menu">
+				<label>Go</label>
+				<icon1>#newmenu</icon1>
+				<button backcol="none" display="label" textcol="none">
+					<label>Documents</label>
+					<icon1>#newcommand</icon1>
+					<function type="normal">
+						<instruction>Go D:\Documents</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" textcol="none">
+					<label>Downloads</label>
+					<icon1>#newcommand</icon1>
+					<function type="normal">
+						<instruction>Go D:\Downloads</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" textcol="none">
+					<label>RNG Tools</label>
+					<icon1>#newcommand</icon1>
+					<function type="normal">
+						<instruction>Go D:\RNG</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" textcol="none">
+					<label>Paper Mario LP</label>
+					<icon1>#newcommand</icon1>
+					<function type="normal">
+						<instruction>Go &quot;D:\Videos\PMTTYD LP&quot;</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" textcol="none">
+					<label>Recent</label>
+					<icon1>#newcommand</icon1>
+					<function type="normal">
+						<instruction>recent path D:\</instruction>
+					</function>
+				</button>
+			</button>
+			<button backcol="none" display="label" textcol="none">
+				<label>Properties</label>
+				<icon1>#newcommand</icon1>
+				<function type="normal">
+					<instruction>properties</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="label" separate="yes" textcol="none">
+			<label>N3DSXL</label>
+			<icon1>#newcommand</icon1>
+			<function type="normal">
+				<instruction>Go FTPSITE &quot;3DS&quot;</instruction>
+			</function>
+		</button>
+		<button display="label" icon_size="large">
+			<label>Dynamic Drives</label>
+			<tip>Display the dynamic drives</tip>
+			<icon1>C:\WINDOWS\system32\shell32.dll,8</icon1>
+			<function type="normal">
+				<instruction>Go DRIVEBUTTONS=-cd</instruction>
+			</function>
+		</button>
+	</buttons>
+</toolbar>
